@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ranjan-maji&label=Profile%20views&color=0e75b6&style=flat" alt="ranjan-maji" /> </p>
 
-<p align="left"> <a href="https://twitter.com/@RanajnM" target="blank"><img src="https://img.shields.io/twitter/follow/RANJAN MAJI?logo=twitter&style=for-the-badge" alt="Ranjan-Maji" /></a> </p>
+<p align="left"> <a href="https://twitter.com/@RanajnM" target="blank"><img src="https://img.shields.io/twitter/follow/RANJAN?logo=twitter&style=for-the-badge" alt="Ranjan-Maji" /></a> </p>
 
 - 🌱 I’m currently learning **React js**
 
