@@ -1,6 +1,12 @@
 name: GitHub Metrics
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/metrics.yml"
+      - "README.md"
   schedule:
     - cron: "17 0 * * *"
   workflow_dispatch:
@@ -15,8 +21,7 @@ jobs:
       - name: Generate profile metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ github.token }}
           user: ranjan-maji
           filename: metrics.svg
           base: header, activity, community, repositories, metadata
-          plugin_traffic: yes
