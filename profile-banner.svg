@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">Ranjan Maji — Backend Developer</title>
+  <desc id="description">A dark blue gradient banner with abstract code-inspired shapes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10172a"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#94a3b8" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="28" fill="url(#grid)"/>
+  <circle cx="1030" cy="50" r="190" fill="#6366f1" opacity=".12"/>
+  <circle cx="1110" cy="300" r="155" fill="#22d3ee" opacity=".09"/>
+  <path d="M770 130l-45 40 45 40m70-80 45 40-45 40m35-102-36 124" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity=".8"/>
+  <rect x="82" y="78" width="4" height="184" rx="2" fill="url(#accent)"/>
+  <text x="116" y="155" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="1">RANJAN MAJI</text>
+  <text x="120" y="202" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="4">BACKEND DEVELOPER · INDIA</text>
+  <text x="120" y="246" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="18">Node.js  /  JavaScript  /  Machine Learning</text>
+</svg>
